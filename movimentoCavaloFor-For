@@ -1,0 +1,21 @@
+#include <stdint.h>
+
+int main() {
+
+    int movimentoVertical = 1; //==Variável de Movimento do Cavalo Vertical
+    int movimentoHorizontal = 1; //==Variável de Movimento do Cavalo Horizontal
+    for (movimentoVertical = 0; movimentoVertical < 2; movimentoVertical++)
+    {
+        for (movimentoHorizontal = 0; movimentoHorizontal <= 1; movimentoHorizontal++)
+        {
+            printf("%d Baixo \n", movimentoVertical);
+        }
+        
+        printf("%d Esquerda", movimentoHorizontal);
+
+    }
+    
+    
+
+    return 0;
+}
